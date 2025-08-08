@@ -1,0 +1,7 @@
+Read A
+Read B
+Mover Areg,A
+Add Areg,B
+Movem Areg,sum
+Print sum
+Stop
