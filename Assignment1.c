@@ -21,9 +21,9 @@ const int ASSEMBLER_DIRS_COUNT = 5;
 const int CONDITION_CODES_COUNT = 6;
 const int REGISTERS_COUNT = 4;
 
-
+// SECTION 2: FUNCTION PROTOTYPES
 // -------------------------------
-bool is_in_category(cons char *token, const char *category[], int count);
+bool is_in_category(const char *token, const char *category[], int count);
 void validate_statement(int line_num, char *tokens[], int token_count);
 void process_tokens(int line_num, char *line);
 
